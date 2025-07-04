@@ -1,10 +1,10 @@
 public class Calculator  {
-    public int add(short a, short b) {
+    public int add(String str1, String str2) {
 
-        if(a + b > Integer.MAX_VALUE){
-            return -1;
-        }
-        return a + b;
-
+        int a = Integer.parseInt(str1);
+        int b = Integr.parseInt(str2);
+        long longA =a;
+        long longB =b;
+        return longA * longB;
     }
 }
